@@ -43,7 +43,7 @@ arrow_x = random.randint(0, TUK_WIDTH)
 arrow_y = random.randint(0, TUK_HEIGHT)
 
 character_x, character_y = TUK_WIDTH // 2, TUK_HEIGHT // 2
-move_speed = 1
+move_speed = 2
 
 while running:
     clear_canvas()
